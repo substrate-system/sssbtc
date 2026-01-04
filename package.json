@@ -4,15 +4,18 @@
   "type": "module",
   "description": "Shamir's secret sharing + bitcoin",
   "main": "index.js",
+  "files": ["./dist/*"],
   "exports": {
     ".": "./dist/index.js",
     "./*": "./dist/*.js"
   },
   "scripts": {
+    "toc": "markdown-toc --maxdepth 3 -i README.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "markdown-toc": "^1.2.0"
+  },
   "keywords": [
     "bitcoin",
     "btc",
