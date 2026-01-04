@@ -1,9 +1,10 @@
 # Shamir's Secret Sharing
 
-A user-friendly web/GUI implementation of Shamir’s Secret Sharing (SSS),
-optimized for Bitcoin and BIP-39 mnemonics.
+[![license](https://img.shields.io/badge/license-AGPL_v3-blue?style=flat-square)](LICENSE)
 
-This project provides a browser-based GUI that allows users to
-split BIP-39 mnemonics into `M`-of-`N` shards using the
-**SLIP-39 standard**. The goal is to be the best UX for key backups.
+https://img.shields.io/badge/license-AGPL_v3-blue?style=flat-square
 
+A user-friendly web/GUI for Shamir’s Secret Sharing (SSS),
+optimized for Bitcoin and BIP-39 mnemonics. Allow users to split BIP-39
+mnemonics into `M`-of-`N` shards using the **SLIP-39 standard**.
+The goal is to be the best UX for key backups.
